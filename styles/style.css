@@ -1,1 +1,92 @@
-/* место для вашего кода */
+.header {
+width: 1100;
+height: 293;
+display: grid;
+grid-template-columns: 1fr min-content 1fr;
+align-items: center;
+padding: 92px 50px 96px 50px;
+}
+
+.header__links-list {
+padding-right: 36px;
+display: flex;
+flex-direction: row;
+gap: 13px;
+list-style: circle;
+}
+.header__links-list-item {
+
+}
+.header__link {
+
+}
+.header__logo {
+display: block;
+justify-self: center;
+align-self: center;
+width: 148px;
+}
+
+.header__logo-image {
+width: 100%;
+}
+
+.address {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.header__address {
+max-width: 240px;
+justify-self: end;
+}
+
+__________________________________________________
+
+
+.cover {
+position:relative;
+}
+
+.overlay {
+
+}
+.cover__title {
+
+}
+
+.letter-spacing-extended {
+
+}
+
+.aligned-text {
+
+}
+
+.aligned-text_left {
+
+}
+
+.aligned-text_center {
+
+}
+
+.no-letter-spacing {
+
+}
+
+.aligned-text_right {
+
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+
+}
