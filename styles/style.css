@@ -16,14 +16,17 @@ font-weight: 400;
 font-size: 18px;
 }
 
+.header__link {
+font-size: 18px;
+white-space: nowrap;
+}
+
+.header__links-list-item {
+list-style: circle;
+}
+
 .header__logo {
-display: block;
-justify-self: center;
-align-self: center;
 width: 148px;
-height: 105px;
-top: 92px;
-left: 478px;
 }
 
 .header__logo-image {

@@ -10,20 +10,28 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header header__menu">
-      <nav class="header__links-list">
-        <a class="header__links-list-item header__link" href="#main">главная</a>
-        <a class="header__links-list-item header__link" href="#lots">посмотреть лоты</a>
-        <a class="header__links-list-item header__link" href="#about">об аукционе</a>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+         <li class="header__links-list_item">
+          <a class="header__link" href="#main">главная</a>
+         </li>
+        <li class="header__links-list_item">
+          <a class="header__link" href="#lots">посмотреть лоты</a>
+         </li>
+        <li class="header__links-list_item">
+          <a class="header__link" href="#about">об аукционе</a>
+         </li>
+        </ul>
       </nav>
       <a class="header__logo" href=""> 
-        <img class="header__logo-image" src="./images/logo-black.svg" alt="логотип оно тебе надо"/>
-        <address class="address header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <a> наб. Принсенграхт 263- 265, Амстердам </a>
-        </address>
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип оно тебе надо"/>
       </a>
+        <address class="address header__address">
+          <a href="tel:+99995555555"> +9 999 555 5555 </a>
+          <a href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
+          <a> наб. Принсенграхт 263- 265, Амстердам </a>
+        </address>
     </header>
     <main>
       <section class="cover">
@@ -41,24 +49,34 @@
        <section class="lots content-section">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
+
           <li class="lost__card-list-item">
             <a class="card-link" href="">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-                <a class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша 
-                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</a>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша 
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
               </article>
             </a>
           </li>
+
           <li class="lost__card-list-item">
             <a class="card-link" href="">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                <a class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на
-                эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</a>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                </p>
               </article>
             </a>
           </li>
@@ -66,9 +84,15 @@
             <a class="card-link" href="">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                <a class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</a>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее 
+                  на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на 
+                  такое поставили, если бы не знали, что это — одна из революционных работ 
+                  Кандинского?
+                </p>
               </article>
             </a>
           </li>
