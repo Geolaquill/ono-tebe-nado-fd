@@ -1,10 +1,15 @@
+.sections {
+width: 100%;
+margin: 0 auto;
+}
+
 .header {
 width: 1100px;
 height: 293px;
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
-padding: 165px 50px 207px 50px;
+padding: 91px 50px 96px 50px;
 }
 
 .header__links-list {
@@ -118,6 +123,7 @@ line-height: 28px;
 width: 637px;
 height: 28px;
 white-space: nowrap;
+line-height: 1.27;
 }
 
 .bet-button {
@@ -134,7 +140,7 @@ padding: 180px 0 50px;
 }
 
 .lots__heading {
-padding: 0 0 30px 40px;
+padding: 0 0 30px 64px;
 font-weight: bold;
 font-size: 40px;
 text-transform: uppercase;
@@ -145,6 +151,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 column-gap: 25px;
 list-style: none;
+padding: 0 24px;
 }
 
 .lost__card-list-item {
@@ -161,7 +168,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height: 100%;
-padding: 48px 40px;
+padding: 48px 40px 48px 40px;
 }
 
 .card_type_film {
@@ -205,7 +212,7 @@ text-decoration: none;
 
 .lots__look-more-link {
 display: block;
-margin: 30px 0 0 40px;
+margin: 30px 0 0 64px;
 font-size: 20px;
 text-decoration: underline;
 text-underline-position: under;
@@ -216,7 +223,7 @@ width: fit-content;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 column-gap: 24px;
-padding: 120px 0 50px;
+padding: 120px 24px 0px 24px;
 }
 
 .about__column {
@@ -242,10 +249,9 @@ width: 148px;
 }
 
 .about__title {
-padding: 100px 0 104px;
+padding: 101px 0 104px;
 font-weight: bold;
 font-size: 40px;
-line-height: 1;
 text-transform: uppercase;
 }
 
